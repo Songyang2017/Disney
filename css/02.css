@@ -1,0 +1,217 @@
+/*----------------头部导航----------------*/
+body{
+	min-width: 1190px;
+}
+.center-box{
+	width: 1200px;
+	margin: 0 auto;
+}
+ .nav{
+	width: 1207px;
+    height: 68px;
+    /*margin-left: -7px;
+    padding-left: 7px;*/
+    padding-top: 40px;
+   	background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.nav li a{
+	float: left;
+	width: 165px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 18px;
+	text-align: center;
+	color: #000;
+}
+.nav li i{
+	width: 20px;
+	height: 19px;
+	margin-right: 10px;
+	font-size: 24px;
+}
+.nav li img{
+	width: 156px;
+	height: 68.28px;
+	position: relative;
+	top: -25px;
+}
+/*----------------主体部分----------------*/
+.mid{
+	height: 596px;
+	margin-top: 108px;
+	border: 1px solid silver;
+}
+.mid-img>li{
+	width: 298px;
+	height: 596px;
+	float:left;
+	border-right:1px solid silver;
+}
+.mid-img>li:last-child{
+	border-right:none; 
+}
+.mid-img>li>img{
+	width: 298px;
+	display: block;
+	 
+}
+/*.mid-img>li>img:hover:after{
+	content: "";
+	color: #fff transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}*/
+.mid-img>li>img:first-child{
+	border-bottom: 1px solid silver;
+}
+.mid-img>li:nth-of-type(2) img{
+	border-bottom: none;
+}
+
+.bot{
+	margin-top: 60px;
+}
+.bot-img p{
+	height: 34px;
+	font-size: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 40px;
+    display: block;
+}
+.bot-img li{
+	overflow: hidden;
+}
+.no1{
+	height: 592px;
+}
+.no1-right{
+	border-top: 1px solid silver;
+	border-left: 1px solid silver;
+
+}
+.no1-right li{ 
+	float: left;
+	height: 295px;
+	border: 1px solid silver;
+	margin-left: -1px;
+	margin-top: -1px;
+}
+.no2{
+	height: 592px;
+}
+/*.no2 img{
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+}*/
+.no2-left li,.no2-left-2>li{
+	float: left;
+}
+.no2-left li:last-child{
+	border-left: 1px solid silver;
+}
+.no2-left-2 li{
+	width: 298px;
+}
+.no2-left-2 li:last-child{
+	height: 592px;
+	border-bottom: 1px solid silver;
+	border-left: 1px solid silver;
+}
+.x-force{
+	height: 296px;
+	border-bottom: 1px solid silver;
+	border-left: 1px solid silver;
+}
+/*---------文字---------*/
+.shop1{
+	position: relative;
+	height: 592px;
+	display: block;
+	float: left;
+}
+.shop1-font{
+    width: 500px;
+    position: relative;
+    top: -90px;
+    left: 80px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 38px;
+}
+#no1-right-font{
+	font-size: 16px;
+	color: #333;
+	padding: 0 20px;
+}
+
+
+
+/*---------页尾---------*/
+.footer{
+	width: 1200px;
+	height: 179px;
+    overflow: hidden;
+   	padding: 88px 0 140px;
+}
+.middle-border{
+	width: 470px;
+    margin: 20px auto 0;
+    border-bottom: 1px solid silver;
+    height: 92px;
+}
+.Disney-icon{
+	width: 105px;
+    height: 64px;
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: 1px solid #dcdcdc;
+    overflow: hidden;
+}
+.wei{
+	width: 277px;
+	height: 91px;
+	 position: relative;
+    top: -20px;
+}
+.wei li{
+	width: 96px;
+    float: left;
+    margin-right: 35px;
+   
+}
+.wei li img{
+	margin: 0 16px; 
+}
+.wei li b{
+	display: block;
+	text-align: center;
+	padding-top: 8px;
+}
+.declare-font{
+	text-align: center;
+	padding-top: 20px;
+}
+.declare-font a{
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 34px;
+	color: #333;
+}
+.footer p{
+	position: relative;
+	left: -14px;
+	text-align: center;
+	font-size: 14px;
+	color: #737373;
+	padding-top:10px;
+}
+
+/*-------------阴影------------*/

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.wed{
+			width: 300px;
+			height: 200px;
+			background-color: red;
+			/*position: relative;*/
+			z-index: 100;
+			
+		}
+		.bge{
+			width: 100px;
+			height: 100px;
+			background-color: #000;
+			display: none;
+			position: absolute;
+			left: 50%;
+		}
+		.wed:hover body{
+			display: block;
+		}
+		body{
+			background-color: rgba(0,0,0,0.8);
+			display: none;
+			z-index: 10;
+		}
+		
+	</style>
+</head>
+<body>
+		<div class="wed"><div class="bge"></div></div>
+		<video src="img/weibo.mp4" id="video" autoplay="autoplay" controls="controls"></video>
+</body>
+</html>
