@@ -3,36 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
 	<style>
-		.wed{
-			width: 300px;
-			height: 200px;
-			background-color: red;
-			/*position: relative;*/
-			z-index: 100;
-			
+		img{
+			display-left: block;
+			float: left;
+			animation: roll 2s linear infinite alternate;
 		}
-		.bge{
-			width: 100px;
-			height: 100px;
-			background-color: #000;
-			display: none;
-			position: absolute;
-			left: 50%;
+		@keyframes roll{
+			0%{transform:translateX(0);}
+			100%{transform: translate(298px);}
 		}
-		.wed:hover body{
-			display: block;
-		}
-		body{
-			background-color: rgba(0,0,0,0.8);
-			display: none;
-			z-index: 10;
-		}
-		
 	</style>
 </head>
-<body>
-		<div class="wed"><div class="bge"></div></div>
-		<video src="img/weibo.mp4" id="video" autoplay="autoplay" controls="controls"></video>
+<body>	
+		<div class="pic clearfix center">
+			<img src="img/170222175522898755.jpg" alt="">
+			<img src="img/170222175656117282.jpg" alt="">
+			<img src="img/170222175807555548.jpg" alt="">
+		</div>
+
+		<script>
+		function roll(){
+			
+		}
+		</script>
 </body>
 </html>

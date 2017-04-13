@@ -78,13 +78,15 @@
 			<li><p>商&nbsp;店</p></li>
 			<li class="clearfix" style="margin-bottom: 60px">
 				<div class="img-left fl">
-					<a href=""><img src="img/170222182656789206.jpg" alt=""></a>
+					<a href="javascript:void(0)" onclick="showLable()">
+						<img src="img/170222182656789206.jpg" alt="">
+					</a>
 				</div>
 				<div class="img-right fl clearfix">
-					<a href=""><img src="img/170222175522898755.jpg" alt=""></a>
-					<a href=""><img src="img/170222175656117282.jpg" alt=""></a><br>
-					<a href=""><img src="img/170224162126508664.jpg" alt=""></a>
-					<a href=""><img src="img/170222175807555548.jpg" alt=""></a>
+					<a href="javascript:void(0)" onclick="showLable()"><img src="img/170222175522898755.jpg" alt=""></a>
+					<a href="javascript:void(0)" onclick="showLable()"><img src="img/170222175656117282.jpg" alt=""></a><br>
+					<a href="javascript:void(0)" onclick="showLable()"><img src="img/170224162126508664.jpg" alt=""></a>
+					<a href="javascript:void(0)" onclick="showLable()"><img src="img/170222175807555548.jpg" alt=""></a>
 				</div>
 			</li>
 			<li><p>迪士尼资讯</p></li>
@@ -167,6 +169,14 @@
 		<video src="img/weibo.mp4" id="vid" controls></video>
 		<a href="javascript:closeVid()"><img src="img/player_close.png" alt=""></a>
 	</div>
+	<div id="smalllable">
+		<p>
+		更多精彩商品<br>
+		请莅临<a href="http://map.baidu.com/?newmap=1" style="color: #7c000f;">上海市浦东新区丰和路180号</a>迪士尼商店选购<br>
+		您也可以登录<a href="https://disney.tmall.com/" style="color: #7c000f;">迪士尼商店天猫商城</a>选购
+		</p>
+		<a href="javascript:closeLable()"><img src="img/player_close2.png" alt=""></a>
+	</div>
 	<script>
 		function showVid() {
 		 	vidBox.style.display='block';
@@ -178,7 +188,15 @@
 		 	black.style.display='none';
 		 	vid.pause();
 		 	vid.currentTime = 0;
-		} 
+		}
+		function showLable(){
+			smalllable.style.display='block';
+			black.style.display='block';
+		}
+		function closeLable(){
+			smalllable.style.display='none';
+			black.style.display='none';
+		}
 	</script>
 </body>
 </html>

@@ -145,11 +145,6 @@ body{
 }
 
 
-
-
-
-
-
 /*商店*/
 .img-right{
 	border-bottom: 1px solid #dcdcdc;
@@ -321,11 +316,40 @@ body{
 
 #black{
 	margin-top: -198px;
-	width: 123%;
+	width: 100%;
 	height: 3100px;
 	position: absolute;
 	background-color: rgba(0,0,0,0.8);
 	z-index: 1001;
 	float: left;
 	display: none;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+#smalllable{
+	width: 600px;
+    height: 110px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -50px;
+    z-index: 1005;
+    display: none;
+}
+#smalllable>p{
+	text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 0 0 10px;
+
+}
+#smalllable>a{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	
 }
