@@ -8,6 +8,7 @@
 	<title>商店</title>
 </head>
 <body>
+	<div id="black"></div>
 <!-- 头部导航 -->
 	<div class="center-box">
 		<ul class="nav clearfix">
@@ -26,19 +27,19 @@
 	<div class="mid center-box">
 		<ul class="mid-img clearfix">
 			<li>
-				<img src="img/160111102522236638.jpg" alt="" >
-				<img src="img/160109120040795874.jpg" alt="">
+				<img src="img/160111102522236638.jpg" alt="" style="cursor: default;">
+				<img src="img/160109120040795874.jpg" alt="" onclick="showlable()">
 			</li>
 			<li>
-				<img src="img/160112100241968978.jpg" alt="">
+				<img src="img/160112100241968978.jpg" alt="" onclick="showlable()">
 			</li>
 			<li>
-				<img src="img/160109115859575786.jpg" alt=""  style="display: block;padding-bottom: 63px">
-				<img src="img/160616113136276290.jpg" alt="">
+				<img src="img/160109115859575786.jpg" alt=""  style="display: block;padding-bottom: 63px" onclick="showlable()">
+				<img src="img/160616113136276290.jpg" alt="" onclick="showlable()">
 			</li>
 			<li>
-				<img src="img/160109121433946203.jpg" alt="" >
-				<img src="img/160109114327016662.jpg" alt="">
+				<img src="img/160109121433946203.jpg" alt="" onclick="showlable()">
+				<img src="img/160109114327016662.jpg" alt="" onclick="showlable()">
 			</li>
 		</ul>
 	</div>
@@ -175,5 +176,24 @@
 		</p>
 	</div>
 
+
+<div id="smalllable">
+		<p>
+		更多精彩商品<br>
+		请莅临<a href="http://map.baidu.com/?newmap=1" style="color: #7c000f;">上海市浦东新区丰和路180号</a>迪士尼商店选购<br>
+		您也可以登录<a href="https://disney.tmall.com/" style="color: #7c000f;">迪士尼商店天猫商城</a>选购
+		</p>
+		<a href="javascript:closelable()"><img src="img/player_close2.png" alt=""></a>
+	</div>
+	<script>
+		function showlable(){
+			smalllable.style.display='block';
+			black.style.display='block';
+		}
+		function closelable(){
+			smalllable.style.display='none';
+			black.style.display='none';
+		}
+	</script>
 </body>
 </html>
